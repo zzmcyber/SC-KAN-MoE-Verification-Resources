@@ -8,7 +8,7 @@ The manuscript study uses 158 stations; this repository releases auxiliary recor
 
 In-situ soil-moisture observations and associated provider metadata are not redistributed because the applicable source-data terms restrict onward distribution.
 
-Record-level model predictions and trained weights are not included in this release.
+A limited set of experiment-specific final parameter settings is temporarily withheld while related implementation details undergo intellectual-property evaluation. The complete final parameter settings and additional reproducibility materials are planned for release through this repository after completion of this process.
 
 ## Auxiliary inputs
 
