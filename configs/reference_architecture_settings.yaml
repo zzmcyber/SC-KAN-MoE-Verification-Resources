@@ -1,0 +1,14 @@
+# Constants used by the supplied model reference; dimensions are configuration inputs.
+reference_settings:
+  n_months: 13
+  n_seasons: 4
+  spline_order: 3
+  grid_min: -3.0
+  grid_max: 3.0
+  spline_init_std: 0.1
+  regressor_hidden_dim: 64
+  use_context_embeddings: true
+  use_time_embeddings: true
+reported_settings:
+  num_experts: 6
+  top_k: 3

@@ -1,0 +1,105 @@
+field,table,group,description,unit,source,processing_state
+sample_id,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+VV,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,VV-polarization backscatter,dB,Sentinel-1 / Copernicus,processed_input
+VH,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,VH-polarization backscatter,dB,Sentinel-1 / Copernicus,processed_input
+IncAngle,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Reference incidence angle,degree,Sentinel-1 / Copernicus,processed_input
+VV_single,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,VV single-pixel field in the project linear-power representation,linear sigma0,Sentinel-1 / Copernicus,processed_input
+VH_single,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,VH single-pixel field in the project linear-power representation,linear sigma0,Sentinel-1 / Copernicus,processed_input
+VV_9pix,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,VV 3 by 3 neighborhood mean in the linear-power domain,linear sigma0,Sentinel-1 / Copernicus,processed_input
+VH_9pix,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,VH 3 by 3 neighborhood mean in the linear-power domain,linear sigma0,Sentinel-1 / Copernicus,processed_input
+local_incidence_angle,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Local incidence angle,degree,Sentinel-1 / Copernicus,processed_input
+incidence_angle_ellipsoid,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Incidence angle relative to the ellipsoid,degree,Sentinel-1 / Copernicus,processed_input
+local_incidence_angle_filled,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored local incidence angle after the project fallback rule,degree,Sentinel-1 / Copernicus,processed_input
+s1_found,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored SAR-match availability flag,1,Sentinel-1 / Copernicus,processed_input
+s1_core_valid,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored core SAR validity flag,1,Sentinel-1 / Copernicus,processed_input
+s1_lia_valid,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored local-incidence validity flag,1,Sentinel-1 / Copernicus,processed_input
+s1_dem_valid,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored terrain validity flag,1,Sentinel-1 / Copernicus,processed_input
+s1_quality_flag,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,"SAR quality label: core inputs, local incidence angle and terrain are valid",category,Sentinel-1 / Copernicus,processed_input
+temperature_2m,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Air temperature at 2 m,K,ERA5-Land / ECMWF,processed_input
+skin_temperature,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Surface skin temperature,K,ERA5-Land / ECMWF,processed_input
+soil_temperature_0_7cm,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Soil temperature in the 0 to 7 cm layer,K,ERA5-Land / ECMWF,processed_input
+surface_net_solar_radiation,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored accumulated net solar radiation,J/m2,ERA5-Land / ECMWF,processed_input
+surface_net_thermal_radiation,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored accumulated net thermal radiation,J/m2,ERA5-Land / ECMWF,processed_input
+potential_evaporation,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored potential evaporation with provider sign convention,m,ERA5-Land / ECMWF,processed_input
+total_evaporation,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored total evaporation with provider sign convention,m,ERA5-Land / ECMWF,processed_input
+wind_speed_10m,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Wind speed at 10 m,m/s,ERA5-Land / ECMWF,processed_input
+snow_depth,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored snow depth,m,ERA5-Land / ECMWF,processed_input
+snow_water_equivalent,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored snow water equivalent,m,ERA5-Land / ECMWF,processed_input
+freeze_thaw_flag,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Stored project freeze-thaw flag,1,ERA5-Land / ECMWF,processed_input
+precip_1h,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Accumulated precipitation in the preceding 1h window,mm,GPM IMERG / NASA,processed_input
+precip_3h,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Accumulated precipitation in the preceding 3h window,mm,GPM IMERG / NASA,processed_input
+precip_6h,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Accumulated precipitation in the preceding 6h window,mm,GPM IMERG / NASA,processed_input
+precip_24h,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Accumulated precipitation in the preceding 24h window,mm,GPM IMERG / NASA,processed_input
+precip_3d,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Accumulated precipitation in the preceding 3d window,mm,GPM IMERG / NASA,processed_input
+precip_7d,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Accumulated precipitation in the preceding 7d window,mm,GPM IMERG / NASA,processed_input
+hours_since_rain,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Elapsed time since rain in the project input,h,GPM IMERG / NASA,processed_input
+NDVI,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Normalized Difference Vegetation Index,1,MODIS / NASA,processed_input
+EVI,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Enhanced Vegetation Index,1,MODIS / NASA,processed_input
+LAI,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Leaf area index,m2/m2,MODIS / NASA,processed_input
+FPAR,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Fraction of absorbed photosynthetically active radiation,1,MODIS / NASA,processed_input
+Elevation,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Elevation from the project terrain input,m,Copernicus DEM,processed_input
+anonymous_reference_time,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Privacy-shifted auxiliary-record reference time,ISO 8601,Project reference timestamp,anonymized_timestamp
+anonymous_sar_time,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Privacy-shifted matched SAR acquisition time,ISO 8601,Sentinel-1 acquisition timestamp,anonymized_timestamp
+s1_time_diff_minutes,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Matched SAR time minus reference time; signed difference,min,Project SAR temporal matching,derived
+ndvi_time_diff_days,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Temporal matching interval for the NDVI input,d,Project MODIS temporal matching,derived
+lai_time_diff_days,combined/sc_kan_moe_auxiliary_features.csv,sc_kan_moe_auxiliary_features,Temporal matching interval for the LAI input,d,Project MODIS temporal matching,derived
+sample_id,meteorological_features.csv,meteorological_features,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,meteorological_features.csv,meteorological_features,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+temperature_2m,meteorological_features.csv,meteorological_features,Air temperature at 2 m,K,ERA5-Land / ECMWF,processed_input
+skin_temperature,meteorological_features.csv,meteorological_features,Surface skin temperature,K,ERA5-Land / ECMWF,processed_input
+soil_temperature_0_7cm,meteorological_features.csv,meteorological_features,Soil temperature in the 0 to 7 cm layer,K,ERA5-Land / ECMWF,processed_input
+surface_net_solar_radiation,meteorological_features.csv,meteorological_features,Stored accumulated net solar radiation,J/m2,ERA5-Land / ECMWF,processed_input
+surface_net_thermal_radiation,meteorological_features.csv,meteorological_features,Stored accumulated net thermal radiation,J/m2,ERA5-Land / ECMWF,processed_input
+potential_evaporation,meteorological_features.csv,meteorological_features,Stored potential evaporation with provider sign convention,m,ERA5-Land / ECMWF,processed_input
+total_evaporation,meteorological_features.csv,meteorological_features,Stored total evaporation with provider sign convention,m,ERA5-Land / ECMWF,processed_input
+wind_speed_10m,meteorological_features.csv,meteorological_features,Wind speed at 10 m,m/s,ERA5-Land / ECMWF,processed_input
+snow_depth,meteorological_features.csv,meteorological_features,Stored snow depth,m,ERA5-Land / ECMWF,processed_input
+snow_water_equivalent,meteorological_features.csv,meteorological_features,Stored snow water equivalent,m,ERA5-Land / ECMWF,processed_input
+freeze_thaw_flag,meteorological_features.csv,meteorological_features,Stored project freeze-thaw flag,1,ERA5-Land / ECMWF,processed_input
+sample_id,precipitation_features.csv,precipitation_features,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,precipitation_features.csv,precipitation_features,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+precip_1h,precipitation_features.csv,precipitation_features,Accumulated precipitation in the preceding 1h window,mm,GPM IMERG / NASA,processed_input
+precip_3h,precipitation_features.csv,precipitation_features,Accumulated precipitation in the preceding 3h window,mm,GPM IMERG / NASA,processed_input
+precip_6h,precipitation_features.csv,precipitation_features,Accumulated precipitation in the preceding 6h window,mm,GPM IMERG / NASA,processed_input
+precip_24h,precipitation_features.csv,precipitation_features,Accumulated precipitation in the preceding 24h window,mm,GPM IMERG / NASA,processed_input
+precip_3d,precipitation_features.csv,precipitation_features,Accumulated precipitation in the preceding 3d window,mm,GPM IMERG / NASA,processed_input
+precip_7d,precipitation_features.csv,precipitation_features,Accumulated precipitation in the preceding 7d window,mm,GPM IMERG / NASA,processed_input
+hours_since_rain,precipitation_features.csv,precipitation_features,Elapsed time since rain in the project input,h,GPM IMERG / NASA,processed_input
+sample_id,sar_features.csv,sar_features,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,sar_features.csv,sar_features,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+VV,sar_features.csv,sar_features,VV-polarization backscatter,dB,Sentinel-1 / Copernicus,processed_input
+VH,sar_features.csv,sar_features,VH-polarization backscatter,dB,Sentinel-1 / Copernicus,processed_input
+IncAngle,sar_features.csv,sar_features,Reference incidence angle,degree,Sentinel-1 / Copernicus,processed_input
+VV_single,sar_features.csv,sar_features,VV single-pixel field in the project linear-power representation,linear sigma0,Sentinel-1 / Copernicus,processed_input
+VH_single,sar_features.csv,sar_features,VH single-pixel field in the project linear-power representation,linear sigma0,Sentinel-1 / Copernicus,processed_input
+VV_9pix,sar_features.csv,sar_features,VV 3 by 3 neighborhood mean in the linear-power domain,linear sigma0,Sentinel-1 / Copernicus,processed_input
+VH_9pix,sar_features.csv,sar_features,VH 3 by 3 neighborhood mean in the linear-power domain,linear sigma0,Sentinel-1 / Copernicus,processed_input
+local_incidence_angle,sar_features.csv,sar_features,Local incidence angle,degree,Sentinel-1 / Copernicus,processed_input
+incidence_angle_ellipsoid,sar_features.csv,sar_features,Incidence angle relative to the ellipsoid,degree,Sentinel-1 / Copernicus,processed_input
+local_incidence_angle_filled,sar_features.csv,sar_features,Stored local incidence angle after the project fallback rule,degree,Sentinel-1 / Copernicus,processed_input
+s1_found,sar_features.csv,sar_features,Stored SAR-match availability flag,1,Sentinel-1 / Copernicus,processed_input
+s1_core_valid,sar_features.csv,sar_features,Stored core SAR validity flag,1,Sentinel-1 / Copernicus,processed_input
+s1_lia_valid,sar_features.csv,sar_features,Stored local-incidence validity flag,1,Sentinel-1 / Copernicus,processed_input
+s1_dem_valid,sar_features.csv,sar_features,Stored terrain validity flag,1,Sentinel-1 / Copernicus,processed_input
+s1_quality_flag,sar_features.csv,sar_features,"SAR quality label: core inputs, local incidence angle and terrain are valid",category,Sentinel-1 / Copernicus,processed_input
+site_id,site_summary.csv,site_summary,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+auxiliary_record_count,site_summary.csv,site_summary,Number of auxiliary records for this anonymous site,count,Released table count,derived
+first_anonymous_time,site_summary.csv,site_summary,First privacy-shifted reference time,ISO 8601,Released timestamp summary,anonymized_timestamp
+last_anonymous_time,site_summary.csv,site_summary,Last privacy-shifted reference time,ISO 8601,Released timestamp summary,anonymized_timestamp
+sample_id,terrain_features.csv,terrain_features,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,terrain_features.csv,terrain_features,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+Elevation,terrain_features.csv,terrain_features,Elevation from the project terrain input,m,Copernicus DEM,processed_input
+sample_id,temporal_matching.csv,temporal_matching,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,temporal_matching.csv,temporal_matching,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+anonymous_reference_time,temporal_matching.csv,temporal_matching,Privacy-shifted auxiliary-record reference time,ISO 8601,Project reference timestamp,anonymized_timestamp
+anonymous_sar_time,temporal_matching.csv,temporal_matching,Privacy-shifted matched SAR acquisition time,ISO 8601,Sentinel-1 acquisition timestamp,anonymized_timestamp
+s1_time_diff_minutes,temporal_matching.csv,temporal_matching,Matched SAR time minus reference time; signed difference,min,Project SAR temporal matching,derived
+ndvi_time_diff_days,temporal_matching.csv,temporal_matching,Temporal matching interval for the NDVI input,d,Project MODIS temporal matching,derived
+lai_time_diff_days,temporal_matching.csv,temporal_matching,Temporal matching interval for the LAI input,d,Project MODIS temporal matching,derived
+sample_id,vegetation_features.csv,vegetation_features,Anonymous unique auxiliary-record identifier,identifier,Repository identifier assignment,anonymous_identifier
+site_id,vegetation_features.csv,vegetation_features,Anonymous site identifier,identifier,Repository identifier assignment,anonymous_identifier
+NDVI,vegetation_features.csv,vegetation_features,Normalized Difference Vegetation Index,1,MODIS / NASA,processed_input
+EVI,vegetation_features.csv,vegetation_features,Enhanced Vegetation Index,1,MODIS / NASA,processed_input
+LAI,vegetation_features.csv,vegetation_features,Leaf area index,m2/m2,MODIS / NASA,processed_input
+FPAR,vegetation_features.csv,vegetation_features,Fraction of absorbed photosynthetically active radiation,1,MODIS / NASA,processed_input

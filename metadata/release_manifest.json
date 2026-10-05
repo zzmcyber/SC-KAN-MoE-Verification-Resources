@@ -1,0 +1,58 @@
+{
+  "release_scope": "anonymized_auxiliary_inputs_and_code",
+  "anonymous_sites": 12,
+  "auxiliary_records": 3675,
+  "in_situ_observations_included": false,
+  "record_level_predictions_included": false,
+  "trained_weights_included": false,
+  "coordinates_included": false,
+  "location_categories_included": false,
+  "absolute_dates_included": false,
+  "privacy_shifted_timestamps": true,
+  "scientific_values_modified": false,
+  "within_site_intervals_preserved": true,
+  "file_sha256": {
+    "data/auxiliary_subset/combined/sc_kan_moe_auxiliary_features.csv": "fd375d6a7ffd49dd681397d437b70897dc03773d05a8f38b11cfab1f54317113",
+    "data/auxiliary_subset/meteorological_features.csv": "aa9ab991cd848dfa81990024a7a0fff7bc8766ace4f9242790f700b11354ef0e",
+    "data/auxiliary_subset/precipitation_features.csv": "463c2ef1c9bf91ee184ebe215f2fa052981b21812eb8fb6292c7b07a4304d2d8",
+    "data/auxiliary_subset/sar_features.csv": "eebe9a12d017a060726c1b56797e69b17c9c088a11dc504520c0677e7972d7d7",
+    "data/auxiliary_subset/site_summary.csv": "44e9a08cea9d6ce1210e2d7d6b7f162f2074f2452d9f6ec240406d7466a80793",
+    "data/auxiliary_subset/terrain_features.csv": "ae02f43b26722f1661cc8aad41ec6ec9ce3815213a25885d4923801a688201e1",
+    "data/auxiliary_subset/temporal_matching.csv": "bb86aeb3b92a0cdc96f62afff74ce861918abb98e7271adcc628ef8328e77673",
+    "data/auxiliary_subset/vegetation_features.csv": "162560590be015d5e5f924309a530ad800646f2e011bc1a405d38abe17c9ed8d"
+  },
+  "table_dimensions": {
+    "combined/sc_kan_moe_auxiliary_features.csv": {
+      "rows": 3675,
+      "fields": 45
+    },
+    "meteorological_features.csv": {
+      "rows": 3675,
+      "fields": 13
+    },
+    "precipitation_features.csv": {
+      "rows": 3675,
+      "fields": 9
+    },
+    "sar_features.csv": {
+      "rows": 3675,
+      "fields": 17
+    },
+    "site_summary.csv": {
+      "rows": 12,
+      "fields": 4
+    },
+    "terrain_features.csv": {
+      "rows": 3675,
+      "fields": 3
+    },
+    "temporal_matching.csv": {
+      "rows": 3675,
+      "fields": 7
+    },
+    "vegetation_features.csv": {
+      "rows": 3675,
+      "fields": 6
+    }
+  }
+}

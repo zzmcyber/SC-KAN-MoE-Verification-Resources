@@ -1,0 +1,14 @@
+# Candidate ranges are configuration guidance, not a per-fold fitted parameter table.
+candidate_ranges:
+  max_lag: {minimum: 1, maximum: 5, step: 1}
+  num_experts: {minimum: 4, maximum: 8, step: 1}
+  top_k: [2, 3]
+  context_embed_dim: {minimum: 6, maximum: 12, step: 2}
+  time_embed_dim: {minimum: 3, maximum: 6, step: 1}
+  expert_hidden_dim: {minimum: 64, maximum: 256, step: 32}
+  grid_size: {minimum: 3, maximum: 8, step: 1}
+  dropout: {minimum: 0.10, maximum: 0.25}
+  learning_rate: {minimum: 1.0e-5, maximum: 1.0e-2, scale: log}
+  weight_decay: {minimum: 1.0e-6, maximum: 1.0e-3, scale: log}
+  batch_size: [1024, 2048, 4096, 8192]
+selection_basis: validation performance

@@ -1,0 +1,11 @@
+repository_type: public_verification_resources
+model: SC-KAN-MoE
+prediction_task: antecedent_state_relative_soil_moisture_increment
+reported_settings:
+  num_experts: 6
+  top_k: 3
+resources:
+  architecture: configs/reference_architecture_settings.yaml
+  candidate_ranges: configs/hyperparameter_search_space.yaml
+  model: model/reference_model.py
+  evaluation: evaluation/evaluate_predictions.py

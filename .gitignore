@@ -1,0 +1,17 @@
+local_only/
+private_data/
+raw_data/
+original_data/
+*.xlsx
+*.xls
+station_mapping*
+original_coordinates*
+private_mapping*
+*.pem
+*.p12
+*.pfx
+.env
+scratch/
+__pycache__/
+*.pyc
+.venv/
